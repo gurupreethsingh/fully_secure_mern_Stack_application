@@ -1,0 +1,29 @@
+.leftsection,
+.rightsection {
+  width: 50%;
+}
+
+.rightsection img {
+  width: 75%;
+  height: 75%;
+}
+
+.loginform{
+  width: 50%; 
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1000px) {
+  .leftsection {
+    width: 100%;
+  }
+
+  .rightsection {
+    display: none !important; /* Hides the .rightsection in mobile view */
+  }
+
+  .loginform{
+    width: 100%; 
+  }
+}
